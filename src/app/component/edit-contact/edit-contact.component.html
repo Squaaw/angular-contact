@@ -1,0 +1,29 @@
+<form [formGroup]="editForm">
+    <div>
+        <mat-form-field appearance="legacy">
+            <mat-label>Nom</mat-label>
+            <input matInput formControlName="fullname">
+        </mat-form-field>
+    </div>
+  
+    <div>
+        <mat-form-field appearance="legacy">
+            <mat-label>Pseudo</mat-label>
+            <input matInput formControlName="nickname">
+        </mat-form-field>
+    </div>
+  
+    <div>
+        <mat-form-field appearance="legacy">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email">
+        </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field appearance="legacy">
+        <mat-label>Nom complet</mat-label>
+        <input matInput placeholder="John Doe" formControlName="editFullname" (keyup)="onKeyUp($event)">
+      </mat-form-field>
+    </div>
+  </form>

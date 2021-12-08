@@ -1,0 +1,54 @@
+h1{
+    font-size: 22px;
+}
+
+h2{
+    font-size: 16px;
+    color: #7a7a7a;
+}
+
+header{
+    background-color: #494949;
+    color: white;
+    padding: 7px 15px;
+    margin-bottom: 15px;
+
+    h1{
+        margin: 0;
+    }
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 0;
+    margin-bottom: 50px;
+
+    li{
+        padding: 15px 10px;
+        margin-bottom: 1px;
+        width: 200px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    li:hover{
+        background-color: #8787ff;
+        cursor: pointer;
+        color: white;
+    }
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-edit{
+    margin-left: 100px;
+    
+    label{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
